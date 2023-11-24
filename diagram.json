@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "author": "Joao Lucas Araujo",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+      { "type": "chip-pulse", "id": "pulse", "top": -56.58, "left": -4.8, "attrs": {} }
+    ],
+    "connections": [
+      [ "esp:TX", "$serialMonitor:RX", "", [] ],
+      [ "esp:RX", "$serialMonitor:TX", "", [] ],
+      [ "pulse:GND", "esp:GND.2", "black", [ "v-28.8", "h124.8", "v105.6" ] ],
+      [ "pulse:VCC", "esp:3V3", "red", [ "h-28.8", "v67.2" ] ],
+      [ "pulse:PULSE", "esp:5", "green", [ "h40.21", "v163.2" ] ]
+    ],
+    "dependencies": {}
+  }
