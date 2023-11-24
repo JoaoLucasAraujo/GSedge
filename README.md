@@ -1,6 +1,9 @@
 # GSedge
 Global Solution Edge computing 
 
+integrantes:
+Joao Lucas Araujo - RM551612
+
 O problema de saude que resolvemos abordar, sao as demoras nas filas quando se trata de triagem e registro, 
 sendo que isso pode ser feito a distancia. 
 desenvolvido em python um sistema que faz a triagem, o registro e alem disso ainda consegue fazer a fila de espera,
